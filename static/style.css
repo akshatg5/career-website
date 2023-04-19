@@ -1,0 +1,28 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* #banner {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+} */
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#container {
+    max-width: 60%;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* #job-card {
+    padding-bottom: 20px;
+} */

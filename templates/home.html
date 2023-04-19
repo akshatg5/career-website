@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="static\style.css">
+    <title>Jovian Careers</title>
+</head>
+
+<body>
+    <h1>Jovian Careers</h1>
+    <img src="static\banner.jpg" class="img-fluid" alt="" id="banner">
+    <div class="container">
+        <h2>About Jovian:</h2>
+        <p>Welcome to our careers website, where we help individuals find their dream job and guide them towards a fulfilling career path. Whether you're just starting out on your professional journey, seeking a change in your current career, or looking
+            for new opportunities to challenge yourself, we are here to assist you in every step of the way. Our website provides you with comprehensive information on various job fields, including job descriptions, requirements, and salary expectations.
+            We also offer valuable insights into job hunting strategies, networking tips, and interview techniques that will help you stand out from the competition. Our mission is to empower job seekers to make informed decisions about their career choices
+            and provide them with the tools and resources necessary to achieve their career goals. Explore our website and take the first step towards your dream job today!</p>
+        <h2>Open Positions</h2>
+        <p>
+            <div>
+                {%for job in jobs%} {%include 'jobitem.html'%} {% endfor %}
+            </div>
+        </p>
+        <button class="btn btn-primary btn-lg">Contact Us</button>
+    </div>
+</body>
+
+</html>
