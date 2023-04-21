@@ -1,2 +1,2 @@
-# career-website
-career website by Jovian 1
+# careers-website
+A careers web site for the Flask course.
